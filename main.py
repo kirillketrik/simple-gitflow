@@ -1,9 +1,10 @@
-from animals import Animal
+from animals import Animal, Cat, Dog
 
 
 def main():
     animals: list[Animal] = [
-
+        Cat(),
+        Dog()
     ]
 
     for animal in animals:
